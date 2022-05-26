@@ -1,0 +1,60 @@
+:root{
+  --maincolor:#ff206e;
+}
+header{
+  background-image: url('../img/me.jpg');
+  background-size: cover;
+  background-position: center center ;
+}
+.text-main{
+  color:var(--maincolor);
+}
+ .social-media i {
+  border: 1px solid #333;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+.social-media i:hover{
+  color: var(--maincolor);
+  border: 1px solid #ff2fff;
+}
+.title h2{
+font-size: 70px;
+color: #ddd7d7;
+letter-spacing:5px;
+}
+.title h3{
+  position: absolute;
+  font-size: 35px;
+  top: 50%;
+  left: 50%;
+  letter-spacing:5px;
+  /*transform: translate(-50%,50%);*/
+}
+.services {
+  background-image: url('../img/OIP.jpg');
+}
+.services .title h2{
+  color: #222;
+}
+.services .title h3{
+  color: #fff;
+}
+.service i{
+  background-color: #222;
+  color: #ddd7d7;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: all 1s;
+}
+.service i:hover{
+ color:var(--maincolor);
+}
+.nav-tabs .nav-item.show .nav-link,.nav-tabs .nav-link.active{
+  color: var(--maincolor);
+}
+.nav-tabs .nav-link{
+  color: #333;
+}
